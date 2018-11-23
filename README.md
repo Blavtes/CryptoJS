@@ -1,9 +1,9 @@
 # CryptoJS
 
-import React, { Component } from 'react'
-var CryptoJS = require('./aes.js')
+    import React, { Component } from 'react'
+    var CryptoJS = require('./aes.js')
 
-export default class UserAes extends Component {
+    export default class UserAes extends Component {
 
     componentWillMount() {
       // AES-CBC-
@@ -40,14 +40,14 @@ export default class UserAes extends Component {
 =======================
 // 微信小程序
 
-var CryptoJS = require('./aes.js')
-var AppId = 'ujhfwe9ihv0as89w'
-var AppSecret = '69324D76887D5795'
-var Crypto = require('./cryptojs.js').Crypto;
+    var CryptoJS = require('./aes.js')
+    var AppId = 'ujhfwe9ihv0as89w'
+    var AppSecret = '69324D76887D5795'
+    var Crypto = require('./cryptojs.js').Crypto;
 
 
-App({
-  onLaunch: function () {
+    App({
+     onLaunch: function () {
     console.log('App Launch')
     this.testPromise()
     var key = CryptoJS.enc.Utf8.parse("69324D76887D5795");
@@ -71,4 +71,4 @@ App({
     console.log(ub1)
    
     }
-})
+    })
