@@ -1,5 +1,7 @@
 # CryptoJS
 
+React-js>
+
     import React, { Component } from 'react'
     var CryptoJS = require('./aes.js')
 
@@ -34,11 +36,11 @@
       console.log(CryptoJS.enc.Utf8.stringify(decrypted).toString());
 
     }
-}
+    }
 
 
-=======================
-// 微信小程序
+
+ 微信小程序->
 
     var CryptoJS = require('./aes.js')
     var AppId = 'ujhfwe9ihv0as89w'
